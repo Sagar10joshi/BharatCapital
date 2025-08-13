@@ -99,9 +99,9 @@ const About = () => {
 
                 <div className="trading-card">
                   <div className="flex items-start space-x-4">
-                    <div className="bg-gradient-to-r from-primary to-accent p-3 rounded-lg">
+                    {/* <div className="bg-gradient-to-r from-primary to-accent p-3 rounded-lg">
                       <GraduationCap className="w-6 h-6 text-primary-foreground" />
-                    </div>
+                    </div> */}
                     <div>
                       <h3 className="font-semibold text-lg">Bachelor's in Economics</h3>
                       <p className="text-primary">Graphic Era University</p>
@@ -214,7 +214,7 @@ const About = () => {
                 staying disciplined, and having a systematic approach that you can execute consistently."
               </blockquote>
               
-              <div className="text-primary font-semibold">- Alex Johnson</div>
+              <div className="text-primary font-semibold">- Bharat Sanwal</div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
