@@ -10,18 +10,18 @@ const About = () => {
     {
       year: '2019',
       title: 'First Profitable Year',
-      description: 'Achieved 45% returns and refined trading strategies'
+      description: 'Achieved 25% returns and refined trading strategies'
     },
     {
       year: '2020',
       title: 'Breakthrough Performance',
-      description: 'Navigated market volatility with 180% returns during pandemic'
+      description: 'Navigated market volatility with 80% returns during pandemic'
     },
-    {
-      year: '2021',
-      title: 'Millionaire Status',
-      description: 'Portfolio exceeded $1M milestone through disciplined trading'
-    },
+    // {
+    //   year: '2021',
+    //   title: 'Millionaire Status',
+    //   description: 'Portfolio exceeded $1M milestone through disciplined trading'
+    // },
     {
       year: '2022',
       title: 'Started Teaching',
@@ -30,7 +30,7 @@ const About = () => {
     {
       year: '2023',
       title: 'Expanded Education',
-      description: 'Grew to 500+ students with proven track record'
+      description: 'Grew to 50+ students with proven track record'
     }
   ];
 
@@ -48,7 +48,7 @@ const About = () => {
     {
       icon: Users,
       title: 'Successful Mentor',
-      description: '500+ students with combined profits over $10M'
+      description: '50+ students with combined profits over $10M'
     },
     {
       icon: BookOpen,
@@ -115,7 +115,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="space-y-6">
+            {/* <div className="space-y-6">
               <h3 className="text-2xl font-bold">Certifications & Licenses</h3>
               <div className="space-y-4">
                 {[
@@ -130,7 +130,7 @@ const About = () => {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

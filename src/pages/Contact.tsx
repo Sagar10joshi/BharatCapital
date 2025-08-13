@@ -53,19 +53,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      content: 'alex@traderpro.com',
+      content: 'sanwalbharat123@gmail.com',
       description: 'Send me an email anytime'
     },
     {
       icon: Phone,
       title: 'Phone',
-      content: '+1 (555) 123-4567',
+      content: '+918868855979',
       description: 'Mon-Fri 9AM-6PM EST'
     },
     {
       icon: MapPin,
       title: 'Location',
-      content: 'New York, NY',
+      content: 'Naveen mandi , Haldwani, Nanital',
       description: 'Available for virtual meetings'
     }
   ];
@@ -304,7 +304,8 @@ const Contact = () => {
                 Enroll in Course
               </Button>
               <Button variant="outline" className="border-border hover:bg-secondary">
-                Schedule Free Call
+                <a href="tel:8868855979">Schedule Free Call</a>
+                {/* Schedule Free Call */}
               </Button>
             </div>
           </div>

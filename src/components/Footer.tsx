@@ -58,11 +58,15 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center space-x-2 text-muted-foreground">
                 <Mail size={16} />
-                <span>alex@traderpro.com</span>
+                {/* <span>sanwalbharat123@gmail.com</span> */}
+
+                <a href="mailto:sanwalbharat123@gmail.com">
+                  sanwalbharat123@gmail.com
+                </a>
               </div>
               <div className="flex items-center space-x-2 text-muted-foreground">
                 <Phone size={16} />
-                <span>+1 (555) 123-4567</span>
+                <a href="tel:8868855979">8868855979</a>
               </div>
             </div>
           </div>
@@ -87,7 +91,7 @@ const Footer = () => {
 
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-muted-foreground">
-            © {currentYear} Bha₹atCapital. All rights reserved.
+            © {new Date().getFullYear()} Bha₹atCapital. All rights reserved.
           </p>
         </div>
       </div>
